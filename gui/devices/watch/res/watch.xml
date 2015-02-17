@@ -3812,7 +3812,7 @@
 				<font resource="font" color="%text_color%" />
 				<text>%tw_crypto_display%</text>
 				<data name="tw_crypto_password" mask="*" maskvariable="tw_crypto_display" />
-				<restrict minlen="1" maxlen="254" />
+				<restrict minlen="0" maxlen="254" />
 				<actions>
 					<action function="page">trydecrypt</action>
 				</actions>
